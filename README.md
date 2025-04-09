@@ -7,4 +7,12 @@
            group = "string"
          },
            
+
+         {
+           username = "lisa"
+           name = "lisa"
+           email = "li@example.com"
+           group = "string"
+         },
+           
 #centinela
