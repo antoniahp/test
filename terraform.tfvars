@@ -18,49 +18,5 @@ users = [
            group = "dev"
          },
            
-
-         {
-           username = "jonh_doe"
-           name = "jonh"
-           email = "jd@example.com"
-           group = "dev"
-         },
-           
-
-         {
-           username = "jonh_doe"
-           name = "jonh"
-           email = "jd@example.com"
-           group = "dev"
-         },
-           
-
-        {
-        username = "jonh_doe"
-        name = "jonh"
-        email = "jd@example.com"
-        group = "dev"
-        },
-       
-
-        {
-        username = "jonh_doe"
-        name = "jonh"
-        email = "jd@example.com"
-        group = "dev"
-        },
-       
-"{username = "jonh_doe", name = "jonh", email = "jd@example.com", group = "dev"}
-"{username = "jonh_doe", 
-        name = "jonh", 
-        email = "jd@example.com", 
-        group = "dev"}
-
-        {
-        username = "jonh_doe", 
-        name = "jonh", 
-        email = "jd@example.com", 
-        group = "dev"
-        }
 #centinela
 ]
