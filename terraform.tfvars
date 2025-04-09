@@ -18,5 +18,12 @@ users = [
            group = "dev"
          },
            
+
+        {
+        username = "ahp", 
+        name = "antonia", 
+        email = "ahp@example.com", 
+        group = "dev"
+        }
 #centinela
 ]
