@@ -1,12 +1,14 @@
-jira_url = "https://antoniaherrera620-1744197091282.atlassian.net/"
-jira_token = "test"
+jira_url = "https://your-jira-instance.atlassian.net"
+jira_username = "your_jira_username"
+jira_token = "your_jira_api_token"
 
 users = [
   {
-    name         = "antonia"
-    email        = "test@test.com"
-    display_name = "antonia"
-    active       = true
+    username = "new_user1"
+    name = "user"
+    email = "newuser1@example.com"
+    group = "jira-users"
   },
 
+  #centinela
 ]
