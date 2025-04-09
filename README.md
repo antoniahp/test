@@ -23,4 +23,12 @@
            group = "dev"
          },
            
+
+         {
+           username = "luca"
+           name = "luca"
+           email = "luca@example.com"
+           group = "dev"
+         },
+           
 #centinela
