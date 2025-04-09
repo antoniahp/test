@@ -1,0 +1,14 @@
+jira_url = "https://your-jira-instance.atlassian.net"
+jira_username = "your_jira_username"
+jira_token = "your_jira_api_token"
+
+users = [
+  {
+    username = "new_user1"
+    name = "user"
+    email = "newuser1@example.com"
+    group = "jira-users"
+  },
+
+  #centinela
+]
