@@ -1,14 +1,31 @@
+terraform {
+  required_providers {
+    jira = {
+      source  = "fourplusone/jira"
+      version = "~> 0.1"
+    }
+  }
+}
+
 provider "jira" {
-  url = var.jira_url
-  username = var.jira_username
-  token = var.jira_token
+  url      = var.jira_url
+  token    = var.jira_token
+}
+
+locals {
+  users = {
+    for user in var.users : user.email => {
+      name         = user.name
+      email        = user.email
+      display_name = user.display_name
+    }
+  }
 }
 
 resource "jira_user" "user" {
-  count = length(var.users)
-  username = var.users[count.index].username
-  name = var.users[count.index].name
-  email = var.users[count.index].email
-  group = var.users[count.index].group
-  active = true
+  for_each = local.users
+
+  name         = each.value.name
+  email        = each.value.email
+  display_name = each.value.display_name
 }

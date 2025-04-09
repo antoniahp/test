@@ -1,24 +1,22 @@
+
 variable "jira_url" {
-  description = "Jira url"
-  type = string
+  description = "The URL of the Jira instance"
+  type        = string
 }
 
-variable "jira_username" {
-  description = "The jira username"
-  type = string
-}
 
 variable "jira_token" {
-  description = "Jira API token"
-  type = string
+  description = "The API token for Jira authentication"
+  type        = string
+  sensitive   = true
 }
 
 variable "users" {
-  description = "Jira users list"
+  description = "List of users to create in Jira"
   type = list(object({
-    username = string
-    name = string
-    email = string
-    group = string
+    name         = string
+    email        = string
+    display_name = string
+
   }))
-}
+} 
