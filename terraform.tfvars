@@ -10,5 +10,13 @@ users = [
     group = "jira-users"
   },
 
-  #centinela
+  
+         {
+           username = "jonh_doe"
+           name = "jonh"
+           email = "jd@example.com"
+           group = "dev"
+         },
+           
+#centinela
 ]
