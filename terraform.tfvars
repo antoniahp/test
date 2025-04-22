@@ -23,11 +23,6 @@ users = [
     email = "lili@example.com"
   },
   {
-    display_name = "antonia"
-    name = "antonia"
-    email = "antonia@example.com"
-  },
-  {
     display_name = "lala"
     name = "martes"
     email = "lala@example.com"
