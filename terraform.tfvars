@@ -25,7 +25,5 @@ users = [
   {
     display_name = "lala"
     name = "martes"
-    email = "lala@example.com"
-  },
   #centinela
 ]
