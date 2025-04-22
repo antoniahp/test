@@ -2,18 +2,12 @@ users = [
   {
     display_name = "ahp"
     name = "antonia"
-    email = "ahp@example.com"
-  },
   {
     display_name = "ahp"
     name = "antonia"
-    email = "ahp@example.com"
-  },
   {
     display_name = "hello"
     name = "antonia"
-    email = "ahp@example.com"
-  },
   {
     display_name = "hello"
     name = "lili"
